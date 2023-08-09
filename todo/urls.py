@@ -17,5 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from todo.views import get_todo_list, add_task_to_list_view
+
 urlpatterns = [
+    path('list/', get_todo_list),
+    path('add/', add_task_to_list_view),
 ]
