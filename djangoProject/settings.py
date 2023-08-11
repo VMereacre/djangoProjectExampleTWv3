@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'todo',
     'weather',
+    'facebook_v22'
 ]
 
 MIDDLEWARE = [
